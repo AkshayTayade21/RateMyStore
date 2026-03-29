@@ -54,7 +54,7 @@ export default function AdminCreateStore() {
 
     try {
       await axios.post(
-        "http://localhost:3000/api/stores",
+        "https://ratemystore-liwu.onrender.com/api/stores",
         {
           ...form,
           owner_id: Number(form.owner_id),

@@ -4,7 +4,7 @@ import MainLayout from "../../layouts/MainLayout";
 import UserSearchFilters from "../../components/admin/UserSearchFilters";
 import UsersTable from "../../components/admin/UserTable";
 
-const API_BASE_URL = "http://localhost:3000/api";
+const API_BASE_URL = "https://ratemystore-liwu.onrender.com/api";
 
 export default function AdminUsers() {
   const [users, setUsers] = useState([]);

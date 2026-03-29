@@ -53,7 +53,7 @@ export default function UpdatePassword() {
 
     try {
       await axios.post(
-        "http://localhost:3000/api/auth/update-password",
+        "https://ratemystore-liwu.onrender.com/api/auth/update-password",
         form,
         {
           headers: {

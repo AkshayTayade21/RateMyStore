@@ -5,7 +5,7 @@ import OwnerStatCard from "../../components/owner/OwnerStatCard";
 import UsersRatedTable from "../../components/owner/UserRatedTable";
 import StoreRatingsList from "../../components/owner/StoreRatingsList";
 
-const API_BASE_URL = "http://localhost:3000/api";
+const API_BASE_URL = "https://ratemystore-liwu.onrender.com/api";
 
 export default function OwnerDashboard() {
   const [data, setData] = useState({

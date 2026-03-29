@@ -4,7 +4,7 @@ import MainLayout from "../../layouts/MainLayout";
 import StoreSearchBar from "../../components/admin/StoreSearchBar";
 import StoresTable from "../../components/admin/StoreTable";
 
-const API_BASE_URL = "http://localhost:3000/api";
+const API_BASE_URL = "https://ratemystore-liwu.onrender.com/api";
 
 export default function AdminStores() {
   const [stores, setStores] = useState([]);

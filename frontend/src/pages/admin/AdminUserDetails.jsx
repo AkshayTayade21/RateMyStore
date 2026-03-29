@@ -11,7 +11,7 @@ export default function AdminUserDetails() {
   const fetchUser = async () => {
     try {
       const res = await axios.get(
-        `http://localhost:3000/api/admin/users/${id}`,
+        `https://ratemystore-liwu.onrender.com/api/admin/users/${id}`,
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,

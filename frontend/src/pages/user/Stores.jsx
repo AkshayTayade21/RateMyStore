@@ -5,7 +5,7 @@ import StoreSearchBar from "../../components/users/StoreSearchBar";
 import StoreCard from "../../components/users/StoreCard";
 import ToastMessage from "../../components/users/ToastMessage";
 
-const API_BASE_URL = "http://localhost:3000/api";
+const API_BASE_URL = "https://ratemystore-liwu.onrender.com/api";
 
 export default function Stores() {
   const [stores, setStores] = useState([]);

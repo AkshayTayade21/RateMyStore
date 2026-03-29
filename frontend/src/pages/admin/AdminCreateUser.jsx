@@ -64,7 +64,7 @@ export default function AdminCreateUser() {
 
     try {
       await axios.post(
-        "http://localhost:3000/api/admin/users",
+        "https://ratemystore-liwu.onrender.com/api/admin/users",
         form,
         {
           headers: {

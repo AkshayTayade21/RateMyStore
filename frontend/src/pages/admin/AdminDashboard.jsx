@@ -7,7 +7,7 @@ export default function AdminDashboard() {
 
   const fetchDashboard = async () => {
     try {
-      const res = await axios.get("http://localhost:3000/api/admin/dashboard", {
+      const res = await axios.get("https://ratemystore-liwu.onrender.com/api/admin/dashboard", {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
         },
